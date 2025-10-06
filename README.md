@@ -53,8 +53,10 @@ A single-page web application built with React.js. It uses modern frontend techn
 - **npm:** 9+ (or yarn 3+)  
 - **React.js:** 18+  
 
-**Key Dependencies (package.json):**  
+**Key Dependencies:**
+
 bash
+(package.json):**  
 {
   "dependencies": {
     "react": "^18.2.0",
