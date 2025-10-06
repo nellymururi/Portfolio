@@ -53,7 +53,9 @@ A single-page web application built with React.js. It uses modern frontend techn
 - **npm:** 9+ (or yarn 3+)  
 - **React.js:** 18+  
 
-**Key Dependencies:(package.json):**  
+**Key Dependencies:
+
+(package.json):**  
 
   ```sh
 {
@@ -89,7 +91,7 @@ npm start
 ```
 
 **Step 4: View the portfolio**
-Open http://localhost:3000 in your browser.
+Open [http://localhost:5174/](http://localhost:5174/) in your browser.
 
 **Step 5: Build for production**
 
@@ -102,7 +104,7 @@ The production-ready files will be generated in the build/ folder, ready to depl
 **Example: Hero Section Component**
 
 ```sh
-jsx
+
 import React from "react";
 import { motion } from "framer-motion";
 import ReactTyped from "react-typed";
@@ -136,7 +138,7 @@ export default Hero;
 ## 6. Project 
 
 ```sh
-text
+
 react-portfolio/
 ├── public/
 │   ├── index.html
@@ -188,10 +190,10 @@ Ensure proper usage in the component as shown in the Minimal Working Example.
 
 ## 8. References
 
-React.js Official Documentation
+[React.js Official Documentation](https://reactjs.org/docs)
 
-Framer Motion Docs
+[Framer Motion Docs](https://www.framer.com/motion)
 
-React Typed Docs
+[React Typed Docs](https://github.com/ssbeefeater/react-typed)
 
-MDN Web Docs – JavaScript & CSS guides
+[MDN Web Docs – JavaScript & CSS guides](https://developer.mozilla.org/)
