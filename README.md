@@ -1,4 +1,4 @@
-# 📘 Nelly Mururi Portfolio
+# 📘 Personal Portfolio
 
 A Friendly Guide to My Personal React.js Portfolio Project
 
