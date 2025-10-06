@@ -4,7 +4,6 @@ A Friendly Guide to My Personal React.js Portfolio Project
 
 <img width="1903" height="783" alt="image" src="https://github.com/user-attachments/assets/4ef2e1c8-f6d2-4833-a558-cf809e07f7bc" />
 
-
 ---
 
 ## 1. Title & Objective
@@ -250,8 +249,41 @@ react-portfolio/
 ├── vite.config.js
 └── README.md
 ```
+## 7. AI Prompt Journal – React.js Portfolio
 
-## 7. Common Issues & Fixes
+## Prompt 1: Learning JavaScript, Node.js, and React.js
+
+**Prompt:**  
+I would like to learn JavaScript, specifically React.js, and create a simple portfolio. Please explain JS as a tech tool, how Node.js and React.js evolved from it, and how they are used.
+**AI Response Summary:**  
+- Explained JS as a versatile language for browsers and servers.  
+- Node.js lets you run JS outside the browser, with npm for package management.  
+- React.js builds modular, reusable UI components.  
+- Provided examples of how React components and props work.
+
+## Prompt 2: Setting Up React.js Portfolio Environment
+Give me a step-by-step guide to set up a React.js project environment including IDE, Node.js, npm, and required libraries.
+**AI Response Summary:**  
+- Guided through using Vite to create a React project.
+- Installed dependencies and ran dev server (npm run dev).
+- Explained folder structure and hot reloading.
+- Provided minimal starter App.jsx code.
+
+## Prompt 3: Adding Animations and Navbar
+I want to add animations: a waving hand emoji after “Hi,” icons for each skill (💻, 📱, etc.), placeholder pages for About, Projects, Contact, and an “NM” logo in the navbar.
+**AI Response Summary:**  
+- Navbar with NM logo implemented.
+- HomeSection component with waving hand, animated icons, and smooth fade-in using Framer Motion and ReactTyped.
+- Placeholder pages created with “Coming Soon” message.
+- React Router routing added in App.jsx.
+
+## Prompt 4: Debugging React Portfolio
+I’m running into issues like npm start failing, CSS not loading, or animations not working. Provide a beginner-friendly troubleshooting guide.
+**AI Response Summary:**  
+- Guided step-by-step fixes: update Node.js/npm, confirm paths in src/assets, reinstall dependencies, ensure correct usage of motion.div and ReactTyped.
+- Explained typical mistakes and how to avoid them.
+
+## 8. Common Issues & Fixes
 **Issue 1: npm start fails**
 **Cause**: Node.js or npm version incompatible
 **Fix**: Ensure Node.js 18+ and npm 9+ are installed. Check versions:
@@ -284,7 +316,7 @@ npm install react-typed
 ```
 Ensure proper usage in the component as shown in the Minimal Working Example.
 
-## 8. References
+## 9. References
 
 [React.js Official Documentation](https://reactjs.org/docs)
 
