@@ -2,7 +2,8 @@
 
 A Friendly Guide to My Personal React.js Portfolio Project
 
-<img width="1903" height="901" alt="image" src="https://github.com/user-attachments/assets/336637a2-0859-4b0b-8b7b-e40254db4040" />
+<img width="1903" height="783" alt="image" src="https://github.com/user-attachments/assets/4ef2e1c8-f6d2-4833-a558-cf809e07f7bc" />
+
 
 ---
 
@@ -76,9 +77,10 @@ A single-page web application built with React.js. It uses modern frontend techn
 
 ## 4. Installation & Setup Instructions
 
-**Prerequisites**
+###**Prerequisites**
 
-**✅ 1. Node.js (LTS version)**
+####**✅ 1. Node.js (LTS version)**
+
 Node lets you run JavaScript outside the browser and includes npm (Node Package Manager), which we'll use to install React and its libraries.
 
 To check if you already have it:
@@ -93,7 +95,7 @@ If you get "command not found", download Node.js (LTS) here 👉 [https://nodejs
 
 During installation, leave the defaults checked.
 
-**✅ 2. Git**
+####**✅ 2. Git**
 
 Helps manage versions of your project and later deploy to GitHub.
 Check if it's installed:
@@ -103,7 +105,7 @@ git --version
 ```
 If not, install it from 👉 [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
-**✅ 3. VS Code (recommended IDE)**
+####**✅ 3. VS Code (recommended IDE)**
 
 If you do not have it already, you can install from 👉 [https://code.visualstudio.com](https://code.visualstudio.com)
 
@@ -118,7 +120,7 @@ Once installed, add these helpful extensions:
 - Simple React Snippets
 
 
-**🚀 Setup Instructions**
+####**🚀 Setup Instructions**
 
 **Step 1: Clone the repository**
 
