@@ -56,6 +56,7 @@ A single-page web application built with React.js. It uses modern frontend techn
 **Key Dependencies:**
 
 bash
+
 (package.json):**  
 {
   "dependencies": {
