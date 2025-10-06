@@ -1,18 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { ReactTyped } from "react-typed";
 import { motion } from "framer-motion";
 
-// Emojis for text
-const skillIcons = {
-  "Web Developer": "💻",
-  "Mobile Developer": "📱",
-  "Data Analyst": "📊",
-  "UI/UX Designer": "🎨",
-  "Machine Learning Specialist": "🤖",
-  "Entrepreneur": "🚀",
-};
-
-// Larger illustration-style emojis for visuals
+// Skill icons
 const skillImages = {
   "Web Developer": "🖥️",
   "Mobile Developer": "📲",
@@ -23,12 +13,23 @@ const skillImages = {
 };
 
 const HomeSection = () => {
-  const [currentSkill, setCurrentSkill] = React.useState("Web Developer");
+  const skillKeys = Object.keys(skillImages);
+
+  // Track the current index of the skill
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  // Skill text for typing
+  const skillStrings = skillKeys.map((s) => `I am a ${s}`);
+
+  // Function to update index (loops infinitely)
+  const handleNextSkill = () => {
+    setCurrentIndex((prev) => (prev + 1) % skillKeys.length);
+  };
 
   return (
     <section
       style={{
-        minHeight: "100vh",
+        minHeight: "75vh",
         width: "100vw",
         display: "flex",
         flexDirection: "column",
@@ -37,12 +38,9 @@ const HomeSection = () => {
         background: "linear-gradient(135deg, #0A0F1C 60%, #1A1F3C)",
         color: "#E0E0E0",
         textAlign: "center",
-        padding: "7rem 2rem 4rem", 
-        boxSizing: "border-box",
-        scrollMarginTop: "80px",
+        padding: "7rem 2rem 4rem",
       }}
     >
-      {/* Greeting */}
       <motion.h1
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -55,7 +53,7 @@ const HomeSection = () => {
           textShadow: "0 0 15px #A259FF",
         }}
       >
-        Hi, I'm Nelly Mururi{" "}
+        Hi, I am Nelly Mururi.{" "}
         <motion.span
           animate={{ rotate: [0, 20, -10, 20, 0] }}
           transition={{ repeat: Infinity, duration: 2 }}
@@ -73,36 +71,31 @@ const HomeSection = () => {
           fontSize: "1.8rem",
           color: "#00FFFF",
           textShadow: "0 0 10px #00FFFF",
-          display: "flex",
-          alignItems: "center",
-          gap: "0.5rem",
         }}
       >
         <ReactTyped
-          strings={Object.keys(skillIcons)}
+          strings={[skillStrings[currentIndex]]} 
           typeSpeed={80}
           backSpeed={40}
-          loop
-          preStringTyped={(arrayPos) => {
-            setCurrentSkill(Object.keys(skillIcons)[arrayPos]);
-          }}
+          showCursor={true}
+          loop={false} 
+          onComplete={handleNextSkill} 
         />
-        
       </motion.h2>
 
-      {/* Large Icon/Image Below Text */}
       <motion.div
-        key={currentSkill + "-img"}
-        initial={{ opacity: 0, scale: 0.5 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.8 }}
+        key={skillKeys[currentIndex]} 
+        initial={{ scale: 0.9, opacity: 0.7 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 0.2 }}
         style={{
           fontSize: "5rem",
           marginTop: "1.5rem",
           filter: "drop-shadow(0 0 15px #00FFFF)",
+          lineHeight: 1,
         }}
       >
-        {skillImages[currentSkill]}
+        {skillImages[skillKeys[currentIndex]]}
       </motion.div>
     </section>
   );
