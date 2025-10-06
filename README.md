@@ -2,6 +2,8 @@
 
 A Friendly Guide to My Personal React.js Portfolio Project
 
+<img width="1903" height="901" alt="image" src="https://github.com/user-attachments/assets/336637a2-0859-4b0b-8b7b-e40254db4040" />
+
 ---
 
 ## 1. Title & Objective
@@ -102,6 +104,7 @@ git --version
 If not, install it from 👉 [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
 **✅ 3. VS Code (recommended IDE)**
+
 If you do not have it already, you can install from 👉 [https://code.visualstudio.com](https://code.visualstudio.com)
 
 Once installed, add these helpful extensions:
@@ -115,7 +118,7 @@ Once installed, add these helpful extensions:
 - Simple React Snippets
 
 
-  **🚀 Setup Instructions**
+**🚀 Setup Instructions**
 
 **Step 1: Clone the repository**
 
@@ -222,7 +225,7 @@ export default App;
 
 **Expected Result:**
 
-- Smooth fade-in animation for the hero section
+- Smooth fade-in animation for the Home section
 
 - Animated typing effect cycling through skills
 
