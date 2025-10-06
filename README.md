@@ -39,7 +39,7 @@ A single-page web application built with React.js. It uses modern frontend techn
 
 **Key Features:**  
 
-- Hero section with animated introduction  
+- Home Section with animated introduction  
 - Projects showcase with interactive cards  
 - Skills section highlighting key expertise  
 - Responsive design for desktop, tablet, and mobile  
@@ -125,7 +125,7 @@ Once installed, add these helpful extensions:
 
   ```sh
 git clone <your-repo-url>
-cd react-portfolio
+cd nmururi-portfolio
 ```
 
 **Step 2: Install dependencies**
@@ -234,7 +234,7 @@ export default App;
 
 ```sh
 
-react-portfolio/
+nmururi-portfolio/
 ├── public/
 │   ├── vite.svg
 ├── src/
@@ -251,7 +251,7 @@ react-portfolio/
 ```
 ## 7. AI Prompt Journal – React.js Portfolio
 
-## Prompt 1: Learning JavaScript, Node.js, and React.js
+### Prompt 1: Learning JavaScript, Node.js, and React.js
 
 **Prompt:**  
 I would like to learn JavaScript, specifically React.js, and create a simple portfolio. Please explain JS as a tech tool, how Node.js and React.js evolved from it, and how they are used.
@@ -261,7 +261,7 @@ I would like to learn JavaScript, specifically React.js, and create a simple por
 - React.js builds modular, reusable UI components.  
 - Provided examples of how React components and props work.
 
-## Prompt 2: Setting Up React.js Portfolio Environment
+### Prompt 2: Setting Up React.js Portfolio Environment
 Give me a step-by-step guide to set up a React.js project environment including IDE, Node.js, npm, and required libraries.
 **AI Response Summary:**  
 - Guided through using Vite to create a React project.
@@ -269,7 +269,7 @@ Give me a step-by-step guide to set up a React.js project environment including 
 - Explained folder structure and hot reloading.
 - Provided minimal starter App.jsx code.
 
-## Prompt 3: Adding Animations and Navbar
+### Prompt 3: Adding Animations and Navbar
 I want to add animations: a waving hand emoji after “Hi,” icons for each skill (💻, 📱, etc.), placeholder pages for About, Projects, Contact, and an “NM” logo in the navbar.
 **AI Response Summary:**  
 - Navbar with NM logo implemented.
@@ -277,7 +277,7 @@ I want to add animations: a waving hand emoji after “Hi,” icons for each ski
 - Placeholder pages created with “Coming Soon” message.
 - React Router routing added in App.jsx.
 
-## Prompt 4: Debugging React Portfolio
+### Prompt 4: Debugging React Portfolio
 I’m running into issues like npm start failing, CSS not loading, or animations not working. Provide a beginner-friendly troubleshooting guide.
 **AI Response Summary:**  
 - Guided step-by-step fixes: update Node.js/npm, confirm paths in src/assets, reinstall dependencies, ensure correct usage of motion.div and ReactTyped.
